@@ -1,0 +1,49 @@
+/ {
+	amba_pl: amba_pl {
+		ranges;
+		compatible = "simple-bus";
+		#address-cells = <1>;
+		#size-cells = <1>;
+		misc_clk_0: misc_clk_0 {
+			compatible = "fixed-clock";
+			clock-frequency = <100000000>;
+			#clock-cells = <0>;
+		};
+		coeff_ctrl: ss_coeff_axi_ctrl@43c00000 {
+			xlnx,rable = <0>;
+			compatible = "xlnx,ss-coeff-axi-ctrl-1.0";
+			status = "okay";
+			clock-names = "S_AXI_ACLK";
+			xlnx,ip-name = "ss_coeff_axi_ctrl";
+			xlnx,edk-iptype = "PERIPHERAL";
+			reg = <0x43c00000 0x1000>;
+			clocks = <&misc_clk_0>;
+			xlnx,name = "coeff_ctrl";
+		};
+		iic_codec: axi_iic@41600000 {
+			xlnx,iic-freq-khz = <100>;
+			compatible = "xlnx,axi-iic-2.1" , "xlnx,xps-iic-2.00.a";
+			xlnx,scl-inertial-delay = <0>;
+			xlnx,rable = <0>;
+			xlnx,ip-name = "axi_iic";
+			xlnx,disable-setup-violation-check = <0>;
+			reg = <0x41600000 0x10000>;
+			clocks = <&misc_clk_0>;
+			xlnx,gpo-width = <1>;
+			xlnx,edk-iptype = "PERIPHERAL";
+			xlnx,static-timing-reg-width = <0>;
+			xlnx,sda-level = <1>;
+			status = "okay";
+			clock-names = "s_axi_aclk";
+			xlnx,ten-bit-adr = <0>;
+			xlnx,default-value = <0x00>;
+			xlnx,timing-reg-width = <32>;
+			xlnx,iic-board-interface = "Custom";
+			xlnx,iic-freq = <100000>;
+			xlnx,smbus-pmbus-host = <0>;
+			xlnx,sda-inertial-delay = <0>;
+			xlnx,name = "iic_codec";
+			xlnx,axi-aclk-freq-mhz = <100>;
+		};
+	};
+};

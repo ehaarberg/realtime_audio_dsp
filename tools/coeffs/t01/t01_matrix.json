@@ -1,0 +1,31 @@
+﻿{
+    "format":  "t01-coeff-test-matrix-v1",
+    "description":  "Deterministic Q22 coefficient files for T-01 round-trip verification across controller/bank pairs.",
+    "coefficient_count":  1021,
+    "targets":  [
+                    {
+                        "controller":  0,
+                        "bank":  0,
+                        "seed":  1001,
+                        "file":  "tools/coeffs/t01/t01_ctrl0_bank0_q22.json"
+                    },
+                    {
+                        "controller":  0,
+                        "bank":  1,
+                        "seed":  1002,
+                        "file":  "tools/coeffs/t01/t01_ctrl0_bank1_q22.json"
+                    },
+                    {
+                        "controller":  2,
+                        "bank":  0,
+                        "seed":  2001,
+                        "file":  "tools/coeffs/t01/t01_ctrl2_bank0_q22.json"
+                    },
+                    {
+                        "controller":  3,
+                        "bank":  1,
+                        "seed":  3001,
+                        "file":  "tools/coeffs/t01/t01_ctrl3_bank1_q22.json"
+                    }
+                ]
+}

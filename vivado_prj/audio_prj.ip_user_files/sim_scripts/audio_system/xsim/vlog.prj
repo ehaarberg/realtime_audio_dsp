@@ -1,0 +1,11 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2024.1/data/xilinx_vip/include" --include "../../../../audio_prj.gen/sources_1/bd/audio_system/ipshared/ec67/hdl" --include "../../../../audio_prj.gen/sources_1/bd/audio_system/ipshared/b28c/hdl" --include "../../../../audio_prj.gen/sources_1/bd/audio_system/ipshared/3242" \
+"../../../bd/audio_system/ip/audio_system_sys_cpu_0/sim/audio_system_sys_cpu_0.v" \
+"../../../bd/audio_system/ip/audio_system_aud_clkwiz_0/audio_system_aud_clkwiz_0_clk_wiz.v" \
+"../../../bd/audio_system/ip/audio_system_aud_clkwiz_0/audio_system_aud_clkwiz_0.v" \
+"../../../bd/audio_system/ip/audio_system_xbar_0/sim/audio_system_xbar_0.v" \
+"../../../bd/audio_system/ip/audio_system_auto_pc_0/sim/audio_system_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

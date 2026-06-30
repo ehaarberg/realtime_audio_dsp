@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="eirik" Host="EIRIK-HOBBY" Pid="29392" HostCore="12" HostMemory="034282065920">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="eirik" Host="EIRIK-HOBBY" Pid="30160" HostCore="12" HostMemory="034282065920">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="eirik" Host="EIRIK-HOBBY" Pid="28652" HostCore="12" HostMemory="034282065920">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="eirik" Host="EIRIK-HOBBY" Pid="13672" HostCore="12" HostMemory="034282065920">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="eirik" Host="EIRIK-HOBBY" Pid="13904" HostCore="12" HostMemory="034282065920">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="eirik" Host="EIRIK-HOBBY" Pid="16292" HostCore="12" HostMemory="034282065920">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="eirik" Host="EIRIK-HOBBY" Pid="31164" HostCore="12" HostMemory="034282065920">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="eirik" Host="EIRIK-HOBBY" Pid="12820" HostCore="12" HostMemory="034282065920">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="eirik" Host="EIRIK-HOBBY" Pid="17648" HostCore="12" HostMemory="034282065920">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="eirik" Host="EIRIK-HOBBY" Pid="27088" HostCore="12" HostMemory="034282065920">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="eirik" Host="EIRIK-HOBBY" Pid="9296" HostCore="12" HostMemory="034282065920">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="eirik" Host="EIRIK-HOBBY" Pid="23852" HostCore="12" HostMemory="034282065920">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="eirik" Host="EIRIK-HOBBY" Pid="10876" HostCore="12" HostMemory="034282065920">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="eirik" Host="EIRIK-HOBBY" Pid="37864" HostCore="12" HostMemory="034282065920">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="eirik" Host="EIRIK-HOBBY" Pid="27488" HostCore="12" HostMemory="034282065920">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="eirik" Host="EIRIK-HOBBY" Pid="2000" HostCore="12" HostMemory="034282065920">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="eirik" Host="EIRIK-HOBBY" Pid="30012" HostCore="12" HostMemory="034282065920">
+    </Process>
+</ProcessHandle>

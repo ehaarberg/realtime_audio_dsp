@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="audio_system_rstgen_0_synth_1" LaunchDir="C:/master/new/vivado_prj/audio_prj.runs/audio_system_rstgen_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="audio_system_auto_pc_0_synth_1" LaunchDir="C:/master/new/vivado_prj/audio_prj.runs/audio_system_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="audio_system_u_dsp_0_synth_1" LaunchDir="C:/master/new/vivado_prj/audio_prj.runs/audio_system_u_dsp_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="audio_system_xbar_0_synth_1" LaunchDir="C:/master/new/vivado_prj/audio_prj.runs/audio_system_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="audio_system_coeff_ctrl_0_synth_1" LaunchDir="C:/master/new/vivado_prj/audio_prj.runs/audio_system_coeff_ctrl_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="audio_system_sys_cpu_0_synth_1" LaunchDir="C:/master/new/vivado_prj/audio_prj.runs/audio_system_sys_cpu_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="audio_system_aud_clkwiz_0_synth_1" LaunchDir="C:/master/new/vivado_prj/audio_prj.runs/audio_system_aud_clkwiz_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="audio_system_iic_codec_0_synth_1" LaunchDir="C:/master/new/vivado_prj/audio_prj.runs/audio_system_iic_codec_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/master/new/vivado_prj/audio_prj.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="audio_system_rstgen_0_synth_1"/>
+		<Parent Id="audio_system_auto_pc_0_synth_1"/>
+		<Parent Id="audio_system_u_dsp_0_synth_1"/>
+		<Parent Id="audio_system_xbar_0_synth_1"/>
+		<Parent Id="audio_system_coeff_ctrl_0_synth_1"/>
+		<Parent Id="audio_system_sys_cpu_0_synth_1"/>
+		<Parent Id="audio_system_aud_clkwiz_0_synth_1"/>
+		<Parent Id="audio_system_iic_codec_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="C:/master/new/vivado_prj/audio_prj.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="audio_system_rstgen_0_synth_1"/>
+		<Parent Id="audio_system_auto_pc_0_synth_1"/>
+		<Parent Id="audio_system_u_dsp_0_synth_1"/>
+		<Parent Id="audio_system_xbar_0_synth_1"/>
+		<Parent Id="audio_system_coeff_ctrl_0_synth_1"/>
+		<Parent Id="audio_system_sys_cpu_0_synth_1"/>
+		<Parent Id="audio_system_aud_clkwiz_0_synth_1"/>
+		<Parent Id="audio_system_iic_codec_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+		<Parameter Name="general.shortenLongPath" Val="true" Type="bool"/>
+	</Parameters>
+	<ProductInfo Name="vivado"/>
+</Runs>
+

@@ -1,0 +1,89 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Apr 27 17:16:19 2026
+# Process ID: 45764
+# Current directory: C:/master/new/vivado_prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent48116 C:\master\new\vivado_prj\audio_prj.xpr
+# Log file: C:/master/new/vivado_prj/vivado.log
+# Journal file: C:/master/new/vivado_prj\vivado.jou
+# Running On        :eirik-hobby
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26200
+# Processor Detail  :Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz
+# CPU Frequency     :3696 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :34282 MB
+# Swap memory       :48436 MB
+# Total Virtual     :82718 MB
+# Available Virtual :17033 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/master/new/vivado_prj/audio_prj.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/master/new/vivado_prj/audio_prj.srcs/sources_1/bd/audio_system/audio_system.bd}
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_bd_design {C:/master/new/vivado_prj/audio_prj.srcs/sources_1/bd/audio_system/audio_system.bd}
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file C:/master/new/vivado_prj/audio_system_wrapper.xsa
+open_bd_design {C:/master/new/vivado_prj/audio_prj.srcs/sources_1/bd/audio_system/audio_system.bd}
+close_bd_design [get_bd_designs audio_system]
+open_bd_design {C:/master/new/vivado_prj/audio_prj.srcs/sources_1/bd/audio_system/audio_system.bd}
+generate_target all [get_files  C:/master/new/vivado_prj/audio_prj.srcs/sources_1/bd/audio_system/audio_system.bd]
+export_ip_user_files -of_objects [get_files C:/master/new/vivado_prj/audio_prj.srcs/sources_1/bd/audio_system/audio_system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/master/new/vivado_prj/audio_prj.srcs/sources_1/bd/audio_system/audio_system.bd]
+export_simulation -of_objects [get_files C:/master/new/vivado_prj/audio_prj.srcs/sources_1/bd/audio_system/audio_system.bd] -directory C:/master/new/vivado_prj/audio_prj.ip_user_files/sim_scripts -ip_user_files_dir C:/master/new/vivado_prj/audio_prj.ip_user_files -ipstatic_source_dir C:/master/new/vivado_prj/audio_prj.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/master/new/vivado_prj/audio_prj.cache/compile_simlib/modelsim} {questa=C:/master/new/vivado_prj/audio_prj.cache/compile_simlib/questa} {riviera=C:/master/new/vivado_prj/audio_prj.cache/compile_simlib/riviera} {activehdl=C:/master/new/vivado_prj/audio_prj.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+update_module_reference [get_ips  audio_system_u_dsp_0]
+generate_target all [get_files  C:/master/new/vivado_prj/audio_prj.srcs/sources_1/bd/audio_system/audio_system.bd]
+catch { config_ip_cache -export [get_ips -all audio_system_auto_pc_0] }
+export_ip_user_files -of_objects [get_files C:/master/new/vivado_prj/audio_prj.srcs/sources_1/bd/audio_system/audio_system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/master/new/vivado_prj/audio_prj.srcs/sources_1/bd/audio_system/audio_system.bd]
+launch_runs audio_system_u_dsp_0_synth_1 -jobs 12
+wait_on_run audio_system_u_dsp_0_synth_1
+export_simulation -of_objects [get_files C:/master/new/vivado_prj/audio_prj.srcs/sources_1/bd/audio_system/audio_system.bd] -directory C:/master/new/vivado_prj/audio_prj.ip_user_files/sim_scripts -ip_user_files_dir C:/master/new/vivado_prj/audio_prj.ip_user_files -ipstatic_source_dir C:/master/new/vivado_prj/audio_prj.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/master/new/vivado_prj/audio_prj.cache/compile_simlib/modelsim} {questa=C:/master/new/vivado_prj/audio_prj.cache/compile_simlib/questa} {riviera=C:/master/new/vivado_prj/audio_prj.cache/compile_simlib/riviera} {activehdl=C:/master/new/vivado_prj/audio_prj.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file C:/master/new/vivado_prj/audio_system_wrapper.xsa
+report_ip_status -name ip_status 
+update_module_reference [get_ips  audio_system_u_dsp_0]
+generate_target all [get_files  C:/master/new/vivado_prj/audio_prj.srcs/sources_1/bd/audio_system/audio_system.bd]
+catch { config_ip_cache -export [get_ips -all audio_system_auto_pc_0] }
+export_ip_user_files -of_objects [get_files C:/master/new/vivado_prj/audio_prj.srcs/sources_1/bd/audio_system/audio_system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/master/new/vivado_prj/audio_prj.srcs/sources_1/bd/audio_system/audio_system.bd]
+launch_runs audio_system_u_dsp_0_synth_1 -jobs 12
+wait_on_run audio_system_u_dsp_0_synth_1
+export_simulation -of_objects [get_files C:/master/new/vivado_prj/audio_prj.srcs/sources_1/bd/audio_system/audio_system.bd] -directory C:/master/new/vivado_prj/audio_prj.ip_user_files/sim_scripts -ip_user_files_dir C:/master/new/vivado_prj/audio_prj.ip_user_files -ipstatic_source_dir C:/master/new/vivado_prj/audio_prj.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/master/new/vivado_prj/audio_prj.cache/compile_simlib/modelsim} {questa=C:/master/new/vivado_prj/audio_prj.cache/compile_simlib/questa} {riviera=C:/master/new/vivado_prj/audio_prj.cache/compile_simlib/riviera} {activehdl=C:/master/new/vivado_prj/audio_prj.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+add_files -fileset utils_1 -norecurse C:/master/new/vivado_prj/post_bit.tcl
+add_files -fileset utils_1 -norecurse C:/master/new/post_bit.tcl
+set_property STEPS.WRITE_BITSTREAM.TCL.POST [ get_files C:/master/new/post_bit.tcl -of [get_fileset utils_1] ] [get_runs impl_1]
+set_property STEPS.WRITE_BITSTREAM.TCL.POST [ get_files C:/master/new/post_bit.tcl -of [get_fileset utils_1] ] [get_runs impl_1]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file C:/master/new/vivado_prj/audio_system_wrapper.xsa
+report_ip_status -name ip_status 
+update_module_reference [get_ips  audio_system_u_dsp_0]
+generate_target all [get_files  C:/master/new/vivado_prj/audio_prj.srcs/sources_1/bd/audio_system/audio_system.bd]
+catch { config_ip_cache -export [get_ips -all audio_system_auto_pc_0] }
+export_ip_user_files -of_objects [get_files C:/master/new/vivado_prj/audio_prj.srcs/sources_1/bd/audio_system/audio_system.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/master/new/vivado_prj/audio_prj.srcs/sources_1/bd/audio_system/audio_system.bd]
+launch_runs audio_system_u_dsp_0_synth_1 -jobs 12
+wait_on_run audio_system_u_dsp_0_synth_1
+export_simulation -of_objects [get_files C:/master/new/vivado_prj/audio_prj.srcs/sources_1/bd/audio_system/audio_system.bd] -directory C:/master/new/vivado_prj/audio_prj.ip_user_files/sim_scripts -ip_user_files_dir C:/master/new/vivado_prj/audio_prj.ip_user_files -ipstatic_source_dir C:/master/new/vivado_prj/audio_prj.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/master/new/vivado_prj/audio_prj.cache/compile_simlib/modelsim} {questa=C:/master/new/vivado_prj/audio_prj.cache/compile_simlib/questa} {riviera=C:/master/new/vivado_prj/audio_prj.cache/compile_simlib/riviera} {activehdl=C:/master/new/vivado_prj/audio_prj.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+open_run impl_1

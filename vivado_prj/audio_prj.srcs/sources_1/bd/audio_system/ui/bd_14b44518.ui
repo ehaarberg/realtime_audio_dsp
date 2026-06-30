@@ -1,0 +1,60 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.716372",
+   "Default View_TopLeft":"711,-98",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 6 -x 2230 -y 830 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 6 -x 2230 -y 850 -defaultsOSRD
+preplace port IIC_CODEC -pg 1 -lvl 6 -x 2230 -y 600 -defaultsOSRD
+preplace port port-id_AC_BCLK -pg 1 -lvl 0 -x -90 -y 90 -defaultsOSRD
+preplace port port-id_AC_LRCLK -pg 1 -lvl 0 -x -90 -y 110 -defaultsOSRD
+preplace port port-id_AC_SDATA_I -pg 1 -lvl 0 -x -90 -y 130 -defaultsOSRD
+preplace port port-id_AC_SDATA_O -pg 1 -lvl 6 -x 2230 -y 700 -defaultsOSRD
+preplace port port-id_AC_MCLK -pg 1 -lvl 6 -x 2230 -y 750 -defaultsOSRD
+preplace inst sys_cpu -pg 1 -lvl 3 -x 730 -y 910 -defaultsOSRD
+preplace inst aud_clkwiz -pg 1 -lvl 2 -x 400 -y 670 -defaultsOSRD
+preplace inst rstgen -pg 1 -lvl 3 -x 730 -y 650 -defaultsOSRD
+preplace inst axi_ic -pg 1 -lvl 4 -x 1300 -y 610 -defaultsOSRD
+preplace inst iic_codec -pg 1 -lvl 5 -x 1890 -y 620 -defaultsOSRD
+preplace inst u_dsp -pg 1 -lvl 4 -x 1300 -y 180 -defaultsOSRD
+preplace inst coeff_ctrl -pg 1 -lvl 5 -x 1890 -y 250 -defaultsOSRD
+preplace netloc AC_BCLK_1 1 0 4 NJ 90 130 70 NJ 70 NJ
+preplace netloc AC_LRCLK_1 1 0 4 NJ 110 140 90 NJ 90 NJ
+preplace netloc AC_SDATA_I_1 1 0 4 NJ 130 150 110 NJ 110 NJ
+preplace netloc aud_clkwiz_aud_mclk 1 2 4 520J 750 NJ 750 NJ 750 NJ
+preplace netloc aud_clkwiz_clk_out1 1 2 3 500 550 980 390 1600
+preplace netloc aud_clkwiz_locked 1 2 1 N 690
+preplace netloc coeff_ctrl_coeff_alpha_out 1 3 3 1000 -80 NJ -80 2200
+preplace netloc coeff_ctrl_coeff_commit_mask 1 3 3 1050 410 NJ 410 2170
+preplace netloc coeff_ctrl_coeff_commit_stb 1 3 3 1030 430 NJ 430 2150
+preplace netloc coeff_ctrl_coeff_g_out 1 3 3 1040 420 NJ 420 2140
+preplace netloc coeff_ctrl_coeff_index 1 3 3 1010 -70 NJ -70 2190
+preplace netloc coeff_ctrl_coeff_read_stb 1 3 3 1020 440 NJ 440 2190
+preplace netloc coeff_ctrl_coeff_shadow_pending_bank 1 3 3 1010 450 NJ 450 2180
+preplace netloc coeff_ctrl_coeff_target_bank 1 3 3 1020 -60 NJ -60 2150
+preplace netloc coeff_ctrl_coeff_target_ctrl 1 3 3 1030 -50 NJ -50 2140
+preplace netloc coeff_ctrl_coeff_wdata 1 3 3 1050 -30 NJ -30 2160
+preplace netloc coeff_ctrl_coeff_write_stb 1 3 3 1040 -40 NJ -40 2170
+preplace netloc rstgen_peripheral_aresetn 1 3 2 990 460 1610
+preplace netloc sys_cpu_FCLK_CLK0 1 1 3 300 1050 NJ 1050 940
+preplace netloc sys_cpu_FCLK_RESET0_N 1 1 3 290 750 510 760 950
+preplace netloc u_dsp_coeff_active_bank_status 1 4 1 1620 160n
+preplace netloc u_dsp_coeff_busy_status 1 4 1 1570 200n
+preplace netloc u_dsp_coeff_pending_bank_status 1 4 1 1590 180n
+preplace netloc u_dsp_coeff_rdata 1 4 1 1640 120n
+preplace netloc u_dsp_coeff_rvalid 1 4 1 1630 140n
+preplace netloc u_dsp_sdata_out 1 4 2 1550J 540 2160J
+preplace netloc u_dsp_coeff_feat_out 1 4 1 1560 220n
+preplace netloc axi_ic_M00_AXI 1 4 1 N 600
+preplace netloc axi_ic_M01_AXI 1 4 1 1580 170n
+preplace netloc iic_codec_IIC 1 5 1 NJ 600
+preplace netloc sys_cpu_DDR 1 3 3 NJ 830 NJ 830 NJ
+preplace netloc sys_cpu_FIXED_IO 1 3 3 NJ 850 NJ 850 NJ
+preplace netloc sys_cpu_M_AXI_GP0 1 3 1 1050 530n
+levelinfo -pg 1 -90 110 400 730 1300 1890 2230
+pagesize -pg 1 -db -bbox -sgen -230 -150 2380 1090
+"
+}
+0

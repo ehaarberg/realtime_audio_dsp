@@ -1,0 +1,9 @@
+vhdl xil_defaultlib  \
+"../../../bd/audio_system/ip/audio_system_rstgen_0/sim/audio_system_rstgen_0.vhd" \
+"../../../bd/audio_system/ip/audio_system_iic_codec_0/sim/audio_system_iic_codec_0.vhd" \
+"../../../bd/audio_system/ip/audio_system_u_dsp_0/sim/audio_system_u_dsp_0.vhd" \
+"../../../bd/audio_system/ip/audio_system_coeff_ctrl_0/sim/audio_system_coeff_ctrl_0.vhd" \
+"../../../bd/audio_system/sim/audio_system.vhd" \
+
+# Do not sort compile order
+nosort

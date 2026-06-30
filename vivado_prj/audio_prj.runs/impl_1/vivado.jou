@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Jun 18 14:50:53 2026
+# Process ID: 28620
+# Current directory: C:/master/new/vivado_prj/audio_prj.runs/impl_1
+# Command line: vivado.exe -log audio_system_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source audio_system_wrapper.tcl -notrace
+# Log file: C:/master/new/vivado_prj/audio_prj.runs/impl_1/audio_system_wrapper.vdi
+# Journal file: C:/master/new/vivado_prj/audio_prj.runs/impl_1\vivado.jou
+# Running On        :eirik-hobby
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26200
+# Processor Detail  :Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz
+# CPU Frequency     :3696 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :34282 MB
+# Swap memory       :38654 MB
+# Total Virtual     :72936 MB
+# Available Virtual :28679 MB
+#-----------------------------------------------------------
+source audio_system_wrapper.tcl -notrace
